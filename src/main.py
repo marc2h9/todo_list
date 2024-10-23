@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    return render_template('todo_list.html')
+    return render_template('landing_page.html')
